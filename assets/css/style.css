@@ -1,0 +1,66 @@
+#aboutphoto {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#aboutbox {
+	border: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	background-color: #fff;
+}
+#connectbox {
+	border: solid;
+	border-color: #cccccc;
+	border-width: 1px;
+	background: #fff;
+	color: 
+}
+#about {
+	border-bottom: solid;
+	border-color: #cccccc;
+	border-width: 1px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#connectwme {
+	border-bottom: solid;
+	border-color: #cccccc;
+	border-width: 1px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.navbar-brand {
+	background-color: #4aaaa5;
+
+}
+#topname {
+	margin-left: 82px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+}
+
+#connectpics {
+	margin-bottom: 25px;
+}
+h1 {
+	color: #4aaaa5;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: #777;
+  background: url("../images/concrete_seamless.png");
+}
+
+
+/*Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd
+Fonts:
+For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
+*/
