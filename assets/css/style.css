@@ -1,6 +1,6 @@
 #aboutphoto {
-	margin-right: 10px;
-	margin-bottom: 10px;
+	margin-right: 5%;
+	margin-bottom: 3%;
 }
 #aboutbox {
 	border: solid;
@@ -13,7 +13,7 @@
 	border-color: #cccccc;
 	border-width: 1px;
 	background: #fff;
-	color: 
+	color: white;
 }
 #about {
 	border-bottom: solid;
@@ -26,20 +26,23 @@
 	border-color: #cccccc;
 	border-width: 1px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
 }
 .navbar-brand {
 	background-color: #4aaaa5;
 
 }
 #topname {
-	margin-left: 82px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: white;
 }
 
-#connectpics {
-	margin-bottom: 25px;
+.conpic {
+position:relative;
+display: inline-block;
+padding:10px;
 }
+
 h1 {
 	color: #4aaaa5;
 }
