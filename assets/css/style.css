@@ -7,6 +7,7 @@
 	border-width: 1px;
 	border-color: #cccccc;
 	background-color: #fff;
+  margin-bottom: 5vw;
 }
 
 #portfoliobox {
@@ -23,6 +24,7 @@
 	border-width: 1px;
 	background: #fff;
 	color: white;
+  margin-bottom: 5vw;
 }
 #about {
 	border-bottom: solid;
@@ -138,7 +140,7 @@ body {
 footer {
   text-align: center;
   position: absolute;
-  bottom: 0px;
+  margin-top: 5%
   clear: both;
   color: white;
   display: inline-block;
