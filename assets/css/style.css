@@ -1,6 +1,12 @@
 #aboutphoto {
 	margin-right: 5%;
 	margin-bottom: 3%;
+  border: 0 none;
+  height: auto;
+  width: auto;
+  max-height: 60%;
+  max-width: 60%;
+
 }
 #aboutbox {
 	border: solid;
@@ -17,6 +23,11 @@
 	background-color: #fff;
 	max-height: auto;
 	max-width: auto;
+}
+#portfolio {
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #cccccc;
 }
 #connectbox {
 	border: solid;
@@ -44,6 +55,9 @@
 	/*display: inline-block;*/
 
 }
+.page-header {
+  border: none;
+}
 .project-name {
   float: left;
   position: relative;
@@ -55,12 +69,13 @@
   color: #ffffff;
   text-align: center;
 }
-.nav .navbar-nav .navbar-right {
-  margin-right: 5%;
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #4aaaa5;
+    color: #fff;
 }
 
 #upname {
-  margin-left: 2vw;
+/*  margin-left: 2vw;*/
 }
 #topname {
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -71,10 +86,22 @@
 /*position:relative;
 display: inline-block;*/
 padding: 5px;
+padding-bottom: 5%
+width: auto;
+height: auto;
+max-width: 100px;
+max-height: 100px;
 }
 
 h1 {
 	color: #4aaaa5;
+  font-size: 3vw;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h3 {
+  color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 3vw;
 }
 
 body {
@@ -135,7 +162,13 @@ body {
   background: #fff;
   padding: 3vw;
   padding-bottom: 5vw;
+  margin-bottom: 5vw;
 }
+.btn-primary {
+  background-color: #4aaaa5;
+  margin-top: 2vw;
+}
+
 
 footer {
   text-align: center;
