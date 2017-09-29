@@ -19,15 +19,6 @@ label {
 	border-right: none;
 }
 
-/* Rotates social icon in contacts on hover. */
-.icon:hover {
-	transform: rotate(-10deg);
-	-ms-transform: rotate(-10deg);
-	-webkit-transform: rotate(-10deg);
-	-moz-transform: rotate(-10deg);
-	-o-transform: rotate(-10deg);
-}
-
 .box {
 	display: inline-block;
 	width: 100%;
@@ -35,14 +26,6 @@ label {
 	margin: 0%;
 }
 
-/* Rotates project in portfolio on hover. */
-.box:hover {
-	transform: rotate(-10deg);
-	-ms-transform: rotate(-10deg);
-	-webkit-transform: rotate(-10deg);
-	-moz-transform: rotate(-10deg);
-	-o-transform: rotate(-10deg);
-}
 
 .project {
 	float: left;
@@ -74,6 +57,14 @@ label {
 .list-group-item {
 	margin-left: 2%;
 	margin-right: 2%;
+}
+
+#connectbox {
+	border: solid;
+	border-color: #cccccc;
+	border-width: 1px;
+	background: #fff;
+	color: white;
 }
 
 .page-header {
