@@ -52,9 +52,8 @@
 }
 .navbar-brand {
 	background-color: #4aaaa5;
-	/*display: inline-block;*/
-
 }
+
 .page-header {
   border: none;
 }
@@ -86,11 +85,11 @@
 /*position:relative;
 display: inline-block;*/
 padding: 5px;
-padding-bottom: 5%
 width: auto;
 height: auto;
 max-width: 100px;
 max-height: 100px;
+margin-bottom: 2%;
 }
 
 h1 {
@@ -167,6 +166,7 @@ body {
 .btn-primary {
   background-color: #4aaaa5;
   margin-top: 2vw;
+  margin-bottom: 2vw;
 }
 
 
